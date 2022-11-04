@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    /*margin-left: 1100px;*/
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.logo{
+    max-height: 80px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+}
+.box{
+    border: 3px solid none;
+    border-radius: 10px;
+    position:absolute;
+    left:200px;
+    top:250px;
+    padding: 32px;
+    box-shadow: 0 3px 10px rgb(222, 223, 228);
+    background-color: white;
+}
+.main1 img{
+    width:1300px;
+    height:700px;
+    float:right;
+    border-radius: 20px;
+    margin:0;
+}
+.locate{
+    border-radius: 10px;
+    padding:10px;
+    border:1px solid whitesmoke;
+}
+.check{
+    border-radius: 10px;
+    padding:10px;
+    border:1px solid whitesmoke;
+}
+.out{
+    border-radius: 10px;
+    padding:10px;
+    border:1px solid whitesmoke;
+}
+.abc{
+    border-radius: 10px;
+    padding:10px;
+    border:1px solid whitesmoke;
+}
+.child{
+    border-radius: 10px;
+    padding:10px;
+    border:1px solid whitesmoke;
+}
+.btn .search{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+}
+.btn .search:hover{
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+}
